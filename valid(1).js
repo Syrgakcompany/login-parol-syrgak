@@ -16,7 +16,7 @@ function validated(){
 		email.focus();
 		return false;
 	}
-	if (password.value.length < 9) {
+	if (password.value.length < 8) {
 		password.style.border = "1px solid red";
 		pass_error.style.display = "block";
 		password.focus();
@@ -32,7 +32,7 @@ function email_Verify(){
 	}
 }
 function pass_Verify(){
-	if (password.value.length == 13) {
+	if (password.value.length == 9) {
 		password.style.border = "1px solid silver";
 		pass_error.style.display = "none";
 		return true;
