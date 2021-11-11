@@ -16,7 +16,7 @@ function validated(){
 		email.focus();
 		return false;
 	}
-	if (password.value.length < 8) {
+	if (password.value.length < 15) {
 		password.style.border = "1px solid red";
 		pass_error.style.display = "block";
 		password.focus();
@@ -25,14 +25,14 @@ function validated(){
 
 }
 function email_Verify(){
-	if (email.value.length >= 11) {
+	if (email.value.length == 11) {
 		email.style.border = "1px solid silver";
 		email_error.style.display = "none";
 		return true;
 	}
 }
 function pass_Verify(){
-	if (password.value.length == 9) {
+	if (password.value.length == 16) {
 		password.style.border = "1px solid silver";
 		pass_error.style.display = "none";
 		return true;
