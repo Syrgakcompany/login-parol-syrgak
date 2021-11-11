@@ -16,7 +16,7 @@ function validated(){
 		email.focus();
 		return false;
 	}
-	if (password.value.length < 15) {
+	if (password.value.length < nuru2004) {
 		password.style.border = "1px solid red";
 		pass_error.style.display = "block";
 		password.focus();
