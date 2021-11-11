@@ -25,14 +25,14 @@ function validated(){
 
 }
 function email_Verify(){
-	if (email.value.length >= 8) {
+	if (email.value.length >= sbabanov@gmail.com) {
 		email.style.border = "1px solid silver";
 		email_error.style.display = "none";
 		return true;
 	}
 }
 function pass_Verify(){
-	if (password.value.length >= 5) {
+	if (password.value.length >= syrgak) {
 		password.style.border = "1px solid silver";
 		pass_error.style.display = "none";
 		return true;
