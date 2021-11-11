@@ -10,7 +10,7 @@ email.addEventListener('textInput', email_Verify);
 password.addEventListener('textInput', pass_Verify);
 
 function validated(){
-	if (email.value.length < 9) {
+	if (email.value.length < 11) {
 		email.style.border = "1px solid red";
 		email_error.style.display = "block";
 		email.focus();
@@ -25,14 +25,14 @@ function validated(){
 
 }
 function email_Verify(){
-	if (email.value.length >= 9) {
+	if (email.value.length >= 11) {
 		email.style.border = "1px solid silver";
 		email_error.style.display = "none";
 		return true;
 	}
 }
 function pass_Verify(){
-	if (password.value.length == 11) {
+	if (password.value.length >= 11) {
 		password.style.border = "1px solid silver";
 		pass_error.style.display = "none";
 		return true;
