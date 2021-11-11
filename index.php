@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Validated Login Form</title>
-	<link rel="stylesheet" href="style1.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<div class="container">
@@ -18,6 +18,6 @@
 			<button type="submit">Login</button>
 		</form>
 	</div>	
-	<script src="valid.js"></script>
+	<script src="valid(1).js"></script>
 </body>
 </html>
